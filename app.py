@@ -30,6 +30,7 @@ with col1:
     K = st.number_input("Potassium (K)",min_value=5,max_value=205,value=50)
     temperature = st.number_input("Temperature (°C)",min_value=0.0,max_value=50.0,value=25.0)
 with col2:
+    st.subheader("🌡️ Climate Conditions")
     humidity = st.number_input("Humidity (%)",min_value=0.0, max_value=100.0, value=70.0)
     ph = st.number_input("pH level", min_value=0.0, max_value=14.0, value=6.5)
     rainfall = st.number_input("Rainfall (mm)", min_value=0.0, max_value=300.0, value=100.0)
